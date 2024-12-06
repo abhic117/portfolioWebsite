@@ -20,7 +20,7 @@ function displaySkills(file) {
         skill_card.setAttribute('class', 'details-container');
         skill_card.setAttribute('id', 'skill-card');
 
-        skill_card.innerHTML = `<h3>${skill}</h3>`;
+        skill_card.innerHTML = `<img src="./assets/skill-icons/${skill}.png" alt="icon" class="about-pic"><h3 id="skill-text">${skill}</h3>`;
         skillsContainer.append(skill_card);
     }))
     
