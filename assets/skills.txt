@@ -1,3 +1,6 @@
-skill1
-skill2
-skill3
+Python
+Java
+C++
+Html
+CSS
+JavaScript

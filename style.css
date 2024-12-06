@@ -171,8 +171,7 @@ section {
 
 .section__text__p1 {
     text-align: center;
-    font-size: 1.75rem;
-    margin-bottom: 1rem;
+    font-size: 1.1rem;
 }
 
 .section__text__p2 {
@@ -239,8 +238,9 @@ section {
 
 .about-containers {
     gap: 2rem;
-    margin-bottom: 2rem;
     margin-top: 2rem;
+    margin-bottom: 2rem;
+    
 }
 
 .about-details-container {
@@ -265,7 +265,7 @@ section {
 
 .details-container {
     padding: 1.5rem;
-    flex: 1;
+    /* flex: 1; */
     background: white;
     border-radius: 2rem;
     border: #353535 0.1rem solid;
@@ -282,4 +282,14 @@ section {
     height: 400px;
     width: 400px;
     margin: auto 0;
+}
+
+/*SKILLS SECTION*/
+
+#skills-container {
+    flex-wrap: wrap;
+}
+
+#skill-card {
+    width: 10rem;
 }
