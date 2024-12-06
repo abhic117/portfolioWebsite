@@ -11,13 +11,11 @@
 <body>
     <nav id="desktop-nav">
         <div class="logo"> Abhi</div>
-        <div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+        <div class="nav-links">
+            <span><a href="#about">About</a></span>
+            <span><a href="#skills">Skills</a></span>
+            <span><a href="#projects">Projects</a></span>
+            <span><a href="#contact">Contact</a></span>
         </div>
     </nav>
     <nav id="hamburger-nav">
@@ -29,13 +27,31 @@
                 <span></span>
             </div>
             <div class="menu-links">
-                <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
-                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                <span><a href="#about" onclick="toggleMenu()">About</a></span>
+                <span><a href="#skills" onclick="toggleMenu()">Skills</a></span>
+                <span><a href="#projects" onclick="toggleMenu()">Projects</a></span>
+                <span><a href="#contact" onclick="toggleMenu()">Contact</a></span>
             </div>
         </div>
     </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profile-pic.jpg" alt="">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Abhishek</h1>
+            <p class="section__text__p2">Frontend Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-colour-2" onclick="window.open('./assets/Resume - Abhishek Chand.pdf')">Download Resume</button>
+                <button class="btn btn-colour-1" onclick="location.href='./#contact'">Contact</button>
+            </div>
+            <div id="socials-container">
+                <a href="https://www.linkedin.com/in/abhishek-chand-1b6125279/"><i class="fa-brands fa-linkedin fa-2x fa-bounce"></i></a>
+                <a href="https://github.com/abhic117"><i class="fa-brands fa-github fa-2x fa-bounce"></i></a>
+            </div>
+        </div>
+    </section>
     <script src="script.js"></script>
 </body>
 </html>

@@ -36,7 +36,6 @@ nav {
 
 .nav-links {
     gap: 2rem;
-    list-style: none;
     font-size: 1.5rem;
 }
 
@@ -105,10 +104,6 @@ a:hover {
     transition: all 0.3 ease-in-out;
 }
 
-.menu-links li {
-    list-style: none;
-}
-
 .menu-links.open {
     max-height: 300px;
 }
@@ -135,4 +130,104 @@ a:hover {
 
 .hamburger-icon span:first-child {
     transform: none;
+}
+
+/*SECTIONS*/
+section {
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.section-container {
+    display: flex;
+}
+
+/*PROFILE*/
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+.section__pic-container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+.section__text {
+    align-self: center;
+    text-align: center;
+}
+
+.section__text p {
+    font-weight: 600;
+}
+
+.section__text__p1 {
+    text-align: center;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.section__text__p2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+#socials-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+/*BUTTONS*/
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn {
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
+
+.btn-colour-1, .btn-colour-2 {
+    border: #353535 0.1rem solid;
+}
+
+.btn-colour-1:hover, .btn-colour-2:hover {
+    cursor: pointer;
+}
+
+.btn-colour-1, .btn-colour-2:hover {
+    background-color: #353535;
+    color: white;
+}
+
+.btn-colour-1:hover {
+    background: black;
+}
+
+.btn-colour-2 {
+    background: none;
+}
+
+.btn-colour-2:hover {
+    border: white 0.1rem solid;
 }
