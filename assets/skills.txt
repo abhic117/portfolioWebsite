@@ -1,7 +1,7 @@
 Python
 Java
 C++
-C#
+Csharp
 JavaScript
 HTML
 CSS

@@ -14,7 +14,7 @@ function displaySkills(file) {
     fetch(file)
     .then(res => res.text())
     .then(text => text.split("\n").forEach(skill => {
-        console.log(skill);
+        // console.log(skill);
 
         const skill_card = document.createElement('div');
         skill_card.setAttribute('class', 'details-container');
