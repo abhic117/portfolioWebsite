@@ -1,1 +1,15 @@
 Python
+Java
+C++
+C#
+JavaScript
+HTML
+CSS
+SQL
+React Native
+NodeJS
+MongoDB
+FireBase
+GitHub
+Docker
+Jira
