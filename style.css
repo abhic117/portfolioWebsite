@@ -240,7 +240,7 @@ section {
     gap: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    
+    justify-content: center;
 }
 
 .about-details-container {
@@ -291,6 +291,7 @@ section {
 
 #skills-container {
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 #skill-card {
