@@ -1,4 +1,4 @@
 # Portfolio Website
 
 ## LINK
-[Portfolio] (https://abhishek-chand.netlify.app/).
+[Portfolio](https://abhishek-chand.netlify.app/).
