@@ -1,6 +1,6 @@
 Python
 Java
-Cpp
+C++
 Csharp
 JavaScript
 HTML
